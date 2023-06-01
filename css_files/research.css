@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap"); /*inserting google fonts */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 65%;
+}
+body {
+  background-color: #eee;
+  font-family: "Poppins", sans-serif;
+  margin-left: 10rem;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+.container {
+  margin-left: -7rem;
+}
+
+/* css for header start */
+header {
+  width: 100vw;
+  height: 80px;
+  border-bottom: solid 1px rgba(16, 16, 16, 0.1);
+  margin-left: -3.1re;
+}
+
+header .inner {
+  width: 1300px; /* This is the inner width of the content inside of header  */
+  height: 100%;
+  margin-left: 2rem;
+  display: block;
+  margin: 0 auto;
+}
+
+header .logo {
+  display: table;
+  height: 100%;
+  float: left;
+}
+
+header .logo div {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+header .logo img {
+  height: 50px;
+  margin-top: 5px; /* Optical alignment of the logo */
+  padding: 20px;
+  align-items: center;
+}
+
+header nav {
+  float: right;
+  height: 100%;
+  padding: 20px;
+  align-items: center;
+  font-size: larger;
+}
+
+header nav li {
+  display: table;
+  height: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+header nav li:last-of-type {
+  margin-right: 0;
+}
+
+header nav span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+header nav a {
+  color: #1d1d1d;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  text-decoration: none;
+}
+header nav a:hover, /* css for when link is hovered and clicked */
+header nav a:active {
+  color: #f7f1f1;
+  background-color: #1d1d1d;
+  border-radius: 20px;
+  transition: 50ms;
+}
+
+/* css for header end */
+
+/* css for research section start */
+.myresearch {
+  margin-top: 2rem;
+  padding: 1rem;
+  padding-bottom: 10rem;
+}
+.myresearch-heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.research {
+  width: 100%;
+  display: flex;
+  margin-left: -1.5rem;
+  justify-content: center;
+  padding: 2rem;
+}
+.research-body {
+  background-color: white;
+  color: black;
+  width: 87.5%;
+  margin-right: 4rem;
+  height: 20rem;
+  padding: 2rem;
+  display: flex;
+  border-radius: 1.5rem;
+  flex-direction: row;
+}
+.research-content-img-1 {
+  flex: 6;
+  background-image: url("../images/booksmandala.png");
+  background-size: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 7px 1rem #3d3d3d;
+  background-repeat: no-repeat;
+}
+.research-content-img-11 {
+  flex: 6;
+  background-image: url("../images/home.png");
+  background-size: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 7px 1rem #3d3d3d;
+  background-repeat: no-repeat;
+  background-position-y: -2rem;
+}
+.research-content-img-2 {
+  flex: 6;
+  background-image: url("../images/okdam.png");
+  background-size: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 7px 1rem #3d3d3d;
+  background-repeat: no-repeat;
+  background-position-y: -3rem;
+}
+.research-content-img-22 {
+  flex: 6;
+  background-image: url("../images/hover.png");
+  background-size: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 7px 1rem #3d3d3d;
+  background-repeat: no-repeat;
+  background-position-y: -7rem;
+}
+.research-content-img-3 {
+  flex: 6;
+  background-image: url("../images/heritagebooks.PNG");
+  background-size: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 7px 1rem #3d3d3d;
+  background-repeat: no-repeat;
+  background-position-y: -5.1rem;
+}
+.research-content-img-33 {
+  flex: 6;
+  background-image: url("../images/contact-form.png");
+  background-size: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 7px 1rem #3d3d3d;
+  background-repeat: no-repeat;
+  background-position-y: -5.1rem;
+}
+.research-content-img-4 {
+  flex: 6;
+  background-image: url("../images/booksmandala-blog.PNG");
+  background-size: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 7px 1rem #3d3d3d;
+  background-repeat: no-repeat;
+  background-position-y: -0.3rem;
+}
+.research-content-img-5 {
+  flex: 6;
+  background-image: url("../images/daraz.PNG");
+  background-size: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 7px 1rem #3d3d3d;
+  background-repeat: no-repeat;
+}
+.research-content-img-44 {
+  flex: 6;
+  background-image: url("../images/blog.png");
+  background-size: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 7px 1rem #3d3d3d;
+  background-repeat: no-repeat;
+  background-position-y: -4rem;
+}
+.research-content-img-55 {
+  flex: 6;
+  background-image: url("../images/jump.PNG");
+  background-size: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 7px 1rem #3d3d3d;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.research-content-text {
+  flex: 6;
+}
+.heading {
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.paragraph {
+  display: flex;
+  padding: 1rem 2rem 2rem 2rem;
+  font-size: larger;
+  text-align: justify;
+  font-weight: 500;
+}
+.visit-button {
+  margin-left: 2rem;
+  padding-top: 3rem;
+}
+.visit {
+  display: inline-block;
+  margin-top: 12px;
+}
+.visit input[type="button"] {
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #1d1d1d;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.visit input[type="button"]:hover {
+  background: #000000;
+  transform: translateY(-0.5px);
+  transition: 0.3ms;
+}
+/* css for research section start */
+
+/* css for footer start */
+
+footer {
+  display: flex;
+  background-color: #000000;
+  margin-top: 2rem;
+  width: 90%;
+  height: 32rem;
+  justify-content: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-radius: 2rem;
+}
+.footer-content {
+  margin: 10px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.footer-heading {
+  font-weight: bold;
+  font-size: large;
+}
+.about-us {
+  color: white;
+  font-size: medium;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  display: flex;
+  text-align: center;
+}
+hr {
+  margin-top: 2rem;
+  margin-left: 25rem;
+  margin-right: 25rem;
+}
+.contact {
+  color: white;
+  padding-left: 13rem;
+  margin-right: 25rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-left: 30rem;
+  font-size: medium;
+}
+.fb,
+.insta,
+.YT {
+  margin-left: 4px;
+  text-decoration: none;
+  color: white;
+}
+.fb:hover {
+  color: rgb(40, 40, 255);
+}
+.insta:hover {
+  color: rgb(194, 17, 114);
+}
+.YT:hover {
+  color: rgb(211, 1, 1);
+}
+
+.copyright {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  font-size: small;
+}
+
+/* css for footer end */

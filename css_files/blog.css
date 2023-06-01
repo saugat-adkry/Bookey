@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap"); /*inserting google fonts */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 65%;
+}
+body {
+  background-color: #eee;
+  font-family: "Poppins", sans-serif;
+  margin-left: 10rem;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+.container {
+  margin-left: -7rem;
+}
+
+/* css for header start */
+header {
+  width: 100vw;
+  height: 80px;
+  border-bottom: solid 1px rgba(16, 16, 16, 0.1);
+  margin-left: -3.1re;
+}
+
+header .inner {
+  width: 1300px; /* This is the inner width of the content inside of header  */
+  height: 100%;
+  margin-left: 2rem;
+  display: block;
+  margin: 0 auto;
+}
+
+header .logo {
+  display: table;
+  height: 100%;
+  float: left;
+}
+
+header .logo div {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+header .logo img {
+  height: 50px;
+  margin-top: 5px; /* Optical alignment of the logo */
+  padding: 20px;
+  align-items: center;
+}
+
+header nav {
+  float: right;
+  height: 100%;
+  padding: 20px;
+  align-items: center;
+  font-size: larger;
+}
+
+header nav li {
+  display: table;
+  height: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+header nav li:last-of-type {
+  margin-right: 0;
+}
+
+header nav span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+header nav a {
+  color: #1d1d1d;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  text-decoration: none;
+}
+header nav a:hover, /* css for when link is hovered and clicked */
+header nav a:active {
+  color: #f7f1f1;
+  background-color: #1d1d1d;
+  border-radius: 20px;
+  transition: 50ms;
+}
+/* css for header end */
+
+/* CSS for blog section start */
+
+.blog {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.blog-content {
+  flex-basis: 50%;
+  min-width: 300px;
+  background-color: white;
+  width: 88.5%;
+  border-radius: 1.4rem;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.473);
+  margin: 2rem;
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  padding-right: -1.5rem;
+  padding-left: 1rem;
+}
+.heading {
+  padding-left: 43rem;
+}
+.img {
+  width: 100%;
+  height: 50rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-inner {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 90%;
+  height: 100%;
+  border-radius: 1.5rem;
+  box-shadow: 0 1rem 4rem #3d3d3d6e;
+}
+.blog-text {
+  width: 95%;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  padding: 1rem;
+  padding-left: 1.9rem;
+  padding-right: 0.5rem;
+}
+/* CSS for blog section end */
+
+/* css for footer start */
+
+footer {
+  display: flex;
+  background-color: #000000;
+  margin-top: 2rem;
+  width: 90%;
+  height: 32rem;
+  justify-content: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-radius: 2rem;
+}
+.footer-content {
+  margin: 10px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.footer-heading {
+  font-weight: bold;
+  font-size: large;
+}
+.about-us {
+  color: white;
+  font-size: medium;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  display: flex;
+  text-align: center;
+}
+hr {
+  margin-top: 2rem;
+  margin-left: 25rem;
+  margin-right: 25rem;
+}
+.contact {
+  color: white;
+  padding-left: 13rem;
+  margin-right: 25rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-left: 30rem;
+  font-size: medium;
+}
+.fb,
+.insta,
+.YT {
+  margin-left: 4px;
+  text-decoration: none;
+  color: white;
+}
+.fb:hover {
+  color: rgb(40, 40, 255);
+}
+.insta:hover {
+  color: rgb(194, 17, 114);
+}
+.YT:hover {
+  color: rgb(211, 1, 1);
+}
+
+.copyright {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  font-size: small;
+}
+
+/* css for footer end */
